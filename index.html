@@ -38,7 +38,7 @@
 
 <!-- Tab links -->
 <div class="tab">
-  <button class="tablinks" onclick="openCity(event, 'Main')">Main</button>
+  <button class="tablinks" onclick="openCity(event, 'Main')" id="defaultOpen">Main</button>
   <button class="tablinks" onclick="openCity(event, 'Research')">Research</button>
   <button class="tablinks" onclick="openCity(event, 'Teaching')">Teaching</button>
   <button class="tablinks" onclick="openCity(event, 'Service')">Service</button>
@@ -242,7 +242,7 @@ class="octicon octicon-link"></span></a>Service Highlights</h3>
     <script src="javascripts/scale.fix.js"></script>
     <script src="javascripts/tabs.js"></script>
     <script>
-      document.getElementById("Main").click();
+      document.getElementById("defaultOpen").click();
     </script>
   </body>
 </html>
